@@ -16,7 +16,13 @@ Por último muestro un intento de hacer un push en la rama main lo cual arroja u
 
 ![Error en Git](Error_Git_Proteccion_Rama.jpg)
 
+Ahora deshago el commit de la rama principal y subo el archivo de evidencias a github, lo cual realizo creando una rama feature/evidencias y haciendo push.
 
+
+![push de evidencias 1](Añadiendo_archivo_evidencias_1.jpg)
+
+
+![push de evidencias 2](Añadiendo_archivo_evidencias_2.jpg)
 
 
 
