@@ -1,4 +1,4 @@
-## Evidencias Requeridas
+## Evidencias Requeridas configuracion rama main
 
 Es importante bloquear la rama principal para evitar que por accidente se altere la versión del software de producción. También permite que otros desarrolladores revisen el código mediante la Pull Request antes de ir a producción, así como realizar pruebas automatizadas para detectar algún fallo o error.
 
@@ -25,5 +25,21 @@ Ahora deshago el commit de la rama principal y subo el archivo de evidencias a g
 ![push de evidencias 2](Añadiendo_archivo_evidencias_2.jpg)
 
 
+## Configuracion de .gitignore
 
+Empiezo creando la rama feature/gitignore. Luego creo el archivo .gitignore y le agrego las reglas correspondientes las cuales son ignorar los .log y el directorio '__pycache__/'.
+
+Los archivos .log son registros que van creciendo continuamente y no aportan un valor adicional, mientras que __pycache__/ contiene archivos complilados de Python que dependen de la arquitectura de cada máquina por lo tanto tampoco conviene subirlos al repositorio.
+
+
+
+![creando gitignore](Creando_archivo_gitignore.jpg)
+
+Ahora creo un archivo .log y un .txt con la informacion de gitstatus para demostrar que Git está ignorando los archivos .log
+
+![Creacion archivo log y txt](Demostracion_archivo_log_gitignore.jpg)
+
+Se evidencia en el archivo gitignore-status.txt que el archivo log que cree no aparece en la lista de archivos detectados por Git.
+
+![imagen gitignore-status.txt](imagen_archivo_gitignore_status.jpg)
 
