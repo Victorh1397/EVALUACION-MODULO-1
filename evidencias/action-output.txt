@@ -1,0 +1,4 @@
+Run echo "Tu nombre completo es Victor Mendez"
+  echo "Tu nombre completo es Victor Mendez"
+  shell: /usr/bin/bash -e {0}
+Tu nombre completo es Victor Mendez
