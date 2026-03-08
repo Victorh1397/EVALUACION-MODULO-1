@@ -1,0 +1,17 @@
+*   dc69b31 Conflicto resulto: Suma y Resta integradas en operations.py
+|\  
+| *   e852356 Merge pull request #3 from Victorh1397/feature/suma
+| |\  
+| | * e0bfdd4 Añadiendo funciones info y suma en operations.py
+| |/  
+* / 01bdf76 Añadiendo funciones info y resta al archivo operations.py
+|/  
+*   f708d78 Merge pull request #2 from Victorh1397/feature/gitignore
+|\  
+| * 6f28038 Añadiendo gitignore-status.txt y actualizaciones de EVIDENCIAS.md
+* | c73e30b Merge pull request #1 from Victorh1397/feature/evidencias
+|\| 
+| * e4fad4d Agregando informacion adicional sobre la creacion de feature/evidencias
+| * ebc9c20 Añadiendo archivo de EVIDENCIAS.md
+|/  
+* 95a0043 Commit inicial: Creación de repositorio con archivo README.md
