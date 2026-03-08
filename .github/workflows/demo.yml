@@ -1,0 +1,19 @@
+name: Demo GitHub Actions 
+
+on:
+  workflow_dispatch:
+    
+    inputs:
+      nombre_completo:
+        description: 'Introduce tu nombre y apellido'
+        required: true
+
+jobs:
+  job-demostracion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Imprimir nombre completo por consola
+        run: echo "Tu nombre completo es ${{ github.event.inputs.nombre_completo }}"
